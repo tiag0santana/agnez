@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+    <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Agnez
+        </title>
+        <meta content="" name="description">
+        <meta content="" name="author">
+        <meta content="" name="keywords">
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+        <!-- The Sea v1.0 || ex nihilo || February - March 2015 -->
+        <!-- style start -->
+        <link href="css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css">
+        <link href="css/style-light-2.css" media="all" rel="stylesheet" type="text/css">
+        <link href="css/font-awesome-4.3.0/css/font-awesome.css" media="all" rel="stylesheet" type="text/css"><!-- style end -->
+        <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <!-- google fonts start -->
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900|Oswald:300,400,700|Dosis:200,300,400,500,600,700,800|Montserrat:400,700"><!-- google fonts end -->
+        <!-- alternate style start || to use your preferred color, simply remove all style colors below and leave only your preferred color -->
+        <link href="css/colors/black-light.css" media="screen" rel="stylesheet" title="black" type="text/css">
+        <link href="css/colors/red-light.css" media="screen" rel="stylesheet" title="red" type="text/css">
+        <link href="css/colors/red-2-light.css" media="screen" rel="stylesheet" title="red-2" type="text/css">
+        <link href="css/colors/green-light.css" media="screen" rel="stylesheet" title="green" type="text/css">
+        <link href="css/colors/green-2-light.css" media="screen" rel="stylesheet" title="green-2" type="text/css">
+        <link href="css/colors/blue-light.css" media="screen" rel="stylesheet" title="blue" type="text/css">
+        <link href="css/colors/blue-2-light.css" media="screen" rel="stylesheet" title="blue-2" type="text/css">
+        <link href="css/colors/yellow-light.css" media="screen" rel="stylesheet" title="yellow" type="text/css">
+        <link href="css/colors/yellow-2-light.css" media="screen" rel="stylesheet" title="yellow-2" type="text/css">
+        <link href="css/colors/orange-light.css" media="screen" rel="stylesheet" title="orange" type="text/css">
+        <link href="css/colors/gold-light.css" media="screen" rel="stylesheet" title="gold" type="text/css">
+        <link href="css/colors/pink-light.css" media="screen" rel="stylesheet" title="pink" type="text/css">
+        <link href="css/colors/purple-light.css" media="screen" rel="stylesheet" title="purple" type="text/css">
+        <link href="css/colors/violet-light.css" media="screen" rel="stylesheet" title="violet" type="text/css">
+        <link href="css/colors/turquoise-light.css" media="screen" rel="stylesheet" title="turquoise" type="text/css">
+        <link href="css/colors/brick-light.css" media="screen" rel="stylesheet" title="brick" type="text/css"><!-- alternate style end -->
+    </head>
+    <body>
+        <!-- screen loader start -->
+        <div class="screen-loader"></div><!-- screen loader end -->
+        <!-- preload start -->
+        <div id="preload">
+            <!-- preload status start -->
+            <div id="preload-status"></div><!-- preload status end -->
+        </div><!-- preload end -->
+        <!-- curtains start -->
+        <div id="curtains"></div><!-- curtains end -->
+        <!-- preload content start -->
+        <div class="preload-content"></div><!-- preload content end -->
+        <!-- header start -->
+        <header>
+            <!-- borders start -->
+            <div id="borders"></div><!-- borders end -->
+            <!-- particles start -->
+            <div id="particles-holder">
+                <canvas id="the-sea-canvas"></canvas>
+            </div><!-- particles end -->
+            <!-- center container start -->
+            <div class="center-container-home">
+                <!-- center block start -->
+                <div class="center-block">
+                    <!-- intro start -->
+                    <div class="intro-wrapper">
+                        <div class="intro">
+                            <div class="introduction">
+                                <h3 class="cycle-it">
+                                    <a class="cycle-text" href="#">Analytics for Deep Learning and AI researchers</a>
+                                </h3>
+                                <h1>
+                                    Agnez IO
+                                </h1>
+                                <div>
+                                    <span class="intro-line"></span>
+                                    <span>It is coming</span>
+                                    <span class="intro-line"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- intro end -->
+                    <!-- newsletter form start -->
+                    <div id="subscribe-wrapper">
+                        <div id="newsletter">
+                            <div class="newsletter">
+                                <form action="subscribe.php" id="subscribe" method="post" name="subscribe">
+                                    <label class="mail"> E-mail</label>
+                                    <input class="subscriberequiredField subscribeemail" id="subscribeemail" name="subscribeemail" type="text">
+                                    <input id="submit" type="submit" value="SUBSCRIBE">
+                                </form>
+                            </div>
+                        </div>
+                    </div><!-- newsletter form end -->
+                </div><!-- center block end -->
+            </div><!-- center container end -->
+            <!-- navigation start -->
+            <div class="menu btn-nav">
+                <a href="#"><span></span></a>
+            </div>
+            <nav role="navigation">
+                <ul class="main-nav brackets">
+                    <li class="move">
+                        <a class="menu-state" href="#section-left">About</a>
+                    </li>
+                    <li class="move">
+                        <a class="menu-state" href="#section-right">Services</a>
+                    </li>
+                    <li class="move">
+                        <a class="menu-state" href="#section-top">Projects</a>
+                    </li>
+                    <li class="move">
+                        <a class="menu-state" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav><!-- navigation end -->
+        </header><!-- header end -->
+        <!-- section about start -->
+        <section data-direction="from-left" id="section-left">
+            <!-- article start -->
+            <article class="containerOT">
+                <!-- center container start -->
+                <div class="center-container">
+                    <!-- closer start -->
+                    <a class="close" href="#"></a><!-- closer end -->
+                     <!-- center block start -->
+                    <div class="center-block">
+                        <!-- container start -->
+                        <div class="container">
+                            <h3>
+                                About
+                            </h3>
+                            <!-- teaser 2 start -->
+                            <div id="teaser-2">
+                                <div id="teaser-text-2">
+                                    <!-- teaser line 1 start -->
+                                    <div class="teaser-text-animation-2 active first">
+                                        <h2>
+                                            <span class="teaser-normal-2">DEEP</span> <span class="teaser-highlight-2">Learning</span>
+                                        </h2>
+                                    </div><!-- teaser line 1 end -->
+                                    <!-- teaser line 2 start -->
+                                    <div class="teaser-text-animation-2">
+                                        <h2>
+                                            <span class="teaser-normal-2">DRAW</span> <span class="teaser-highlight-2">Network</span>
+                                        </h2>
+                                    </div><!-- teaser line 2 end -->
+                                    <!-- teaser line 3 start -->
+                                    <div class="teaser-text-animation-2">
+                                        <h2>
+                                            <span class="teaser-normal-2">REST</span> <span class="teaser-highlight-2">API</span>
+                                        </h2>
+                                    </div><!-- teaser line 3 end -->
+                                    <!-- teaser line 4 start -->
+                                    <div class="teaser-text-animation-2">
+                                        <h2>
+                                            <span class="teaser-normal-2">Diva</span> <span class="teaser-highlight-2">Poderosa</span>
+                                        </h2>
+                                    </div><!-- teaser line 4 end -->
+                                </div>
+                            </div><!-- teaser 2 end -->
+                            <!-- lineOT start -->
+                            <div class="lineOT-about"></div><!-- lineOT end -->
+                            <!-- row start -->
+                            <div class="row">
+                                <!-- decoration about start -->
+                                <div class="decoration">
+                                    <div class="decoration-about-left-1"></div>
+                                    <div class="decoration-about-middle-1"></div>
+                                    <div class="decoration-about-right-1"></div>
+                                </div><!-- decoration about end -->
+                                <p class="about-head">
+                                    Here we are using a REST api to send updates of the cost function and images from a computer training a neural network. We can also send back new values for the learning rate, but we thought it wouldn't be a good idea for a public demo :D . We are training a Deep Recurrent Attentive Writer (DRAW) network using Seya and Keras libraries. Please check the details about the method on its <a href="http://arxiv.org/pdf/1502.04623" target="_blank">original paper</a>. We will make public the code to deploy your own Agnez and share awesome visualizations. For now, try <a href="https://github.com/EderSantana/seya/tree/master/examples/DRAW.ipynb" target="_blank">this</a> IPython Notebook, to reproduce the DRAW results. We have several other ideas and cool visualizations coming soon. But we are even more excited to see what you can do!!! - With ♡ Agnez Team.
+                                </p>
+                                <!-- decoration about start -->
+                                <div class="decoration">
+                                    <div class="decoration-about-left-2"></div>
+                                    <div class="decoration-about-middle-2"></div>
+                                    <div class="decoration-about-right-2"></div>
+                                </div><!-- decoration about end -->
+                                <div class="col-md-4 values-about">
+                                    <span class="awesome"><span class="fa fa-diamond"></span></span>
+                                    <p class="info">
+                                        Core Values
+                                    </p>
+                                    <div class="about-left">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit</a>. Vivamus vulputate libero non nulla pharetra pulvinar. Fusce faucibus ultrices
+                                            scelerisque. Curabitur convallis consectetur lectus vel egestas.
+                                        </p>
+                                        <ul>
+                                            <li>Etiam nulla libero
+                                            </li>
+                                            <li>Posuere eu luctus in
+                                            </li>
+                                            <li>Semper non justo
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- owlCarousel about start -->
+                                <div class="col-md-8">
+                                    <div class="owl-carousel">
+                                        <div>
+                                            <span class="awesome"><span class="fa fa-code"></span></span>
+                                            <div class="info">
+                                                Mission
+                                            </div>
+                                            <p>
+                                                Proin non magna ut risus eleifend pellentesque. Ut nunc ligula, mattis et pellentesque ut, <a href="#">auctor nec mi</a>. Integer luctus arcu vitae
+                                                dolor suscipit tempor. Suspendisse potenti.
+                                            </p>
+                                            <p>
+                                                Nullam tristique sed turpis sit amet <a href="#">dapibus</a>. Proin nec pulvinar elit, nec ultrices mi. Sed sit amet semper neque. Cum sociis natoque
+                                                penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                            </p>
+                                            <p>
+                                                Aliquam sit amet dolor sed quam finibus vulputate non ut diam. Mauris nec arcu non nulla rutrum egestas. Sed ante lacus, dapibus a dui eu, interdum
+                                                gravida lorem. Fusce viverra volutpat odio <a href="#">et convallis</a>.
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <span class="awesome"><span class="fa fa-book"></span></span>
+                                            <div class="info">
+                                                Vision
+                                            </div>
+                                            <p>
+                                                Proin non magna ut risus eleifend pellentesque. Ut nunc ligula, mattis et pellentesque ut, <a href="#">auctor nec mi</a>. Integer luctus arcu vitae
+                                                dolor suscipit tempor. Suspendisse potenti.
+                                            </p>
+                                            <p>
+                                                Nullam tristique sed turpis sit amet <a href="#">dapibus</a>. Proin nec pulvinar elit, nec ultrices mi. Sed sit amet semper neque. Cum sociis natoque
+                                                penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                            </p>
+                                            <p>
+                                                Aliquam sit amet dolor sed quam finibus vulputate non ut diam. Mauris nec arcu non nulla rutrum egestas. Sed ante lacus, dapibus a dui eu, interdum
+                                                gravida lorem. Fusce viverra volutpat odio <a href="#">et convallis</a>.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div><!-- owlCarousel about end -->
+                                <!-- decoration about start -->
+                                <div class="decoration">
+                                    <div class="decoration-about-left-3"></div>
+                                    <div class="decoration-about-middle-3"></div>
+                                    <div class="decoration-about-right-3"></div>
+                                </div><!-- decoration about end -->
+                            </div><!-- row end -->
+                            <!-- team information start -->
+                            <div id="team">
+                                <!-- row tiles start -->
+                                <div class="row tiles">
+                                    <h6>
+                                        The team
+                                    </h6>
+                                    <!-- team 1 start -->
+                                    <div class="col-md-4">
+                                        <div class="team-item">
+                                            <div class="tile">
+                                                <div class="information">
+                                                    <p>
+                                                        Éder Santana Jr.<br>
+                                                        / uma deusa!
+                                                    </p>
+                                                    <!-- social icons team 1 start -->
+                                                    <div class="social-icons-information-wrapper">
+                                                        <ul class="social-icons-information">
+                                                            <li>
+                                                                <a class="fa fa-twitter-square fa-2x" href="#"></a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="fa fa-facebook-square fa-2x" href="#"></a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="fa fa-google-plus-square fa-2x" href="#"></a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="fa fa-youtube-square fa-2x" href="#"></a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="fa fa-linkedin-square fa-2x" href="#"></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div><!-- social icons team 1 end -->
+                                                </div>
+                                                <div class="symbol">
+                                                    <img alt="Team" src="images/team-1.jpg">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div><!-- team 1 end -->
+                                    <!-- team 2 start -->
+                                    <div class="col-md-4">
+                                        <div class="team-item">
+                                            <div class="tile">
+                                                <div class="information">
+                                                    <p>
+                                                        Éder Santana Jr.<br>
+                                                        / uma louca
+                                                    </p>
+                                                    <!-- social icons team 2 start -->
+                                                    <div class="social-icons-information-wrapper">
+                                                        <ul class="social-icons-information">
+                                                            <li>
+                                                                <a class="fa fa-twitter-square fa-2x" href="#"></a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="fa fa-facebook-square fa-2x" href="#"></a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="fa fa-google-plus-square fa-2x" href="#"></a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="fa fa-youtube-square fa-2x" href="#"></a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="fa fa-linkedin-square fa-2x" href="#"></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div><!-- social icons team 2 end -->
+                                                </div>
+                                                <div class="symbol">
+                                                    <img alt="Team" src="images/team-2.jpg">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div><!-- team 2 end -->
+                                    <!-- team 3 start -->
+                                    <div class="col-md-4">
+                                        <div class="team-item">
+                                            <div class="tile">
+                                                <div class="information">
+                                                    <p>
+                                                        Éder Santana Jr<br>
+                                                        / uma feiticeira
+                                                    </p>
+                                                    <!-- social icons team 3 start -->
+                                                    <div class="social-icons-information-wrapper">
+                                                        <ul class="social-icons-information">
+                                                            <li>
+                                                                <a class="fa fa-twitter-square fa-2x" href="#"></a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="fa fa-facebook-square fa-2x" href="#"></a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="fa fa-google-plus-square fa-2x" href="#"></a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="fa fa-youtube-square fa-2x" href="#"></a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="fa fa-linkedin-square fa-2x" href="#"></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div><!-- social icons team 3 end -->
+                                                </div>
+                                                <div class="symbol">
+                                                    <img alt="Team" src="images/team-3.jpg">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div><!-- team 3 end -->
+                                    <!-- decoration about start -->
+                                    <div class="decoration">
+                                        <div class="decoration-about-left-4"></div>
+                                        <div class="decoration-about-middle-4"></div>
+                                        <div class="decoration-about-right-4"></div>
+                                    </div><!-- decoration about end -->
+                                </div><!-- row tiles end -->
+                            </div><!-- team information end -->
+                            <!-- lineOT start -->
+                            <div class="lineOT-about-2"></div><!-- lineOT end -->
+                        </div><!-- container end -->
+                    </div><!-- center block end -->
+                </div><!-- center container end -->
+            </article><!-- article end -->
+        </section><!-- section about end -->
+        <!-- section services start -->
+        <section data-direction="from-right" id="section-right">
+            <!-- article start -->
+            <article class="containerOT">
+                <!-- center container start -->
+                <div class="center-container">
+                    <!-- closer start -->
+                    <a class="close" href="#"></a><!-- closer end -->
+                     <!-- center block start -->
+                    <div class="center-block">
+                        <!-- container start -->
+                        <div class="container">
+                            <h3>
+                                Services
+                            </h3>
+                            <!-- teaser 3 start -->
+                            <div id="teaser-3">
+                                <div id="teaser-text-3">
+                                    <!-- teaser line 1 start -->
+                                    <div class="teaser-text-animation-3 active first">
+                                        <h2>
+                                            <span class="teaser-normal-3">DEEP</span> <span class="teaser-highlight-3">Learning</span>
+                                        </h2>
+                                    </div><!-- teaser line 1 end -->
+                                    <!-- teaser line 2 start -->
+                                    <div class="teaser-text-animation-3">
+                                        <h2>
+                                            <span class="teaser-normal-3">DRAW</span> <span class="teaser-highlight-3">Network</span>
+                                        </h2>
+                                    </div><!-- teaser line 2 end -->
+                                    <!-- teaser line 3 start -->
+                                    <div class="teaser-text-animation-3">
+                                        <h2>
+                                            <span class="teaser-normal-3">REST</span> <span class="teaser-highlight-3">API</span>
+                                        </h2>
+                                    </div><!-- teaser line 3 end -->
+                                    <!-- teaser line 4 start -->
+                                    <div class="teaser-text-animation-3">
+                                        <h2>
+                                            <span class="teaser-normal-3">Diva</span> <span class="teaser-highlight-3">Poderosa</span>
+                                        </h2>
+                                    </div><!-- teaser line 4 end -->
+                                </div>
+                            </div><!-- teaser 3 end -->
+                            <!-- lineOT start -->
+                            <div class="lineOT-services"></div><!-- lineOT end -->
+                            <!-- row start -->
+                            <div class="row">
+                                <!-- decoration services start -->
+                                <div class="decoration">
+                                    <div class="decoration-services-left-1"></div>
+                                    <div class="decoration-services-middle-1"></div>
+                                    <div class="decoration-services-right-1"></div>
+                                </div><!-- decoration services end -->
+                                <p class="services-head">
+                                    Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit</a>. Curabitur bibendum ut purus non ultricies. Sed vel felis laoreet, blandit metus non,
+                                    gravida sem. In pharetra ultrices nisl, at posuere erat malesuada in.
+                                </p>
+                                <!-- decoration services start -->
+                                <div class="decoration">
+                                    <div class="decoration-services-left-2"></div>
+                                    <div class="decoration-services-middle-2"></div>
+                                    <div class="decoration-services-right-2"></div>
+                                </div><!-- decoration services end -->
+                                <div class="col-md-12 values-services">
+                                    <span class="awesome"><span class="fa fa-diamond"></span></span>
+                                    <p class="info">
+                                        Core Pinciples
+                                    </p>
+                                    <div class="services-right">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit</a>. Vivamus vulputate libero non nulla pharetra pulvinar. Fusce faucibus ultrices
+                                            scelerisque. Curabitur convallis consectetur lectus vel egestas.
+                                        </p>
+                                        <ul>
+                                            <li>Etiam nulla libero
+                                            </li>
+                                            <li>Posuere eu luctus in
+                                            </li>
+                                            <li>Semper non justo
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- decoration services start -->
+                                <div class="decoration">
+                                    <div class="decoration-services-left-3"></div>
+                                    <div class="decoration-services-middle-3"></div>
+                                    <div class="decoration-services-right-3"></div>
+                                </div><!-- decoration services end -->
+                            </div><!-- row end -->
+                            <!-- lineOT start -->
+                            <div class="lineOT-services-2"></div><!-- lineOT end -->
+                        </div><!-- container end -->
+                    </div><!-- center block end -->
+                </div><!-- center container end -->
+            </article><!-- article end -->
+        </section><!-- section services end -->
+        <!-- section projects start -->
+        <section data-direction="from-top" id="section-top">
+            <!-- article start -->
+            <article class="containerOT">
+                <!-- closer start -->
+                <a class="close" href="#"></a><!-- closer end -->
+                 <!-- projects start -->
+                <div class="projects-container">
+                    <ul>
+                        <!-- project 1 start -->
+                        <li class="cd-single-project">
+                            <div class="cd-title">
+                                <h2>
+                                    Project 1
+                                </h2>
+                                <p>
+                                    Lorem ipsum <a href="#">dolor</a> sit amet.
+                                </p>
+                            </div>
+                            <div class="cd-project-info">
+                                <!-- container start -->
+                                <div class="container">
+                                    <h4>
+                                        Project 1
+                                    </h4>
+                                    <!-- lineOT start -->
+                                    <div class="lineOT-projects"></div><!-- lineOT end -->
+                                    <!-- row start -->
+                                    <div class="row">
+                                        <!-- decoration projects start -->
+                                        <div class="decoration">
+                                            <div class="decoration-projects-left-1"></div>
+                                            <div class="decoration-projects-middle-1"></div>
+                                            <div class="decoration-projects-right-1"></div>
+                                        </div><!-- decoration projects end -->
+                                        <p class="projects-head">
+                                            Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit</a>. Curabitur bibendum ut purus non ultricies. Sed vel felis laoreet, blandit metus
+                                            non, gravida sem. In pharetra ultrices nisl, at posuere erat malesuada in.
+                                        </p>
+                                        <!-- decoration projects start -->
+                                        <div class="decoration">
+                                            <div class="decoration-projects-left-2"></div>
+                                            <div class="decoration-projects-middle-2"></div>
+                                            <div class="decoration-projects-right-2"></div>
+                                        </div><!-- decoration projects end -->
+                                        <!-- owlCarousel 1 start -->
+                                        <div class="owl-carousel">
+                                            <div>
+                                                <span class="awesome-2"><span class="fa fa-mars"></span></span>
+                                                <div class="info-2">
+                                                    Customer First
+                                                </div>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit</a>. Curabitur bibendum ut purus non ultricies. Sed vel felis laoreet, blandit
+                                                    metus non, gravida sem. In pharetra ultrices nisl, at posuere erat malesuada in.
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <span class="awesome-2"><span class="fa fa-globe"></span></span>
+                                                <div class="info-2">
+                                                    Remote Support
+                                                </div>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit</a>. Curabitur bibendum ut purus non ultricies. Sed vel felis laoreet, blandit
+                                                    metus non, gravida sem. In pharetra ultrices nisl, at posuere erat malesuada in.
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <span class="awesome-2"><span class="fa fa-venus"></span></span>
+                                                <div class="info-2">
+                                                    Quality First
+                                                </div>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit</a>. Curabitur bibendum ut purus non ultricies. Sed vel felis laoreet, blandit
+                                                    metus non, gravida sem. In pharetra ultrices nisl, at posuere erat malesuada in.
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <span class="awesome-2"><span class="fa fa-cogs"></span></span>
+                                                <div class="info-2">
+                                                    Core Pinciples
+                                                </div>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit</a>. Curabitur bibendum ut purus non ultricies. Sed vel felis laoreet, blandit
+                                                    metus non, gravida sem. In pharetra ultrices nisl, at posuere erat malesuada in.
+                                                </p>
+                                            </div>
+                                        </div><!-- owlCarousel 1 end -->
+                                        <!-- decoration projects start -->
+                                        <div class="decoration">
+                                            <div class="decoration-projects-left-3"></div>
+                                            <div class="decoration-projects-middle-3"></div>
+                                            <div class="decoration-projects-right-3"></div>
+                                        </div><!-- decoration projects end -->
+                                    </div><!-- row end -->
+                                    <!-- lineOT start -->
+                                    <div class="lineOT-projects-2"></div><!-- lineOT end -->
+                                </div><!-- container end -->
+                            </div>
+                        </li><!-- project 1 end -->
+                        <!-- project 2 start -->
+                        <li class="cd-single-project">
+                            <div class="cd-title">
+                                <h2>
+                                    Project 2
+                                </h2>
+                                <p>
+                                    Lorem ipsum <a href="#">dolor</a> sit amet.
+                                </p>
+                            </div>
+                            <div class="cd-project-info">
+                                <!-- container start -->
+                                <div class="container">
+                                    <h4>
+                                        Project 2
+                                    </h4>
+                                    <!-- lineOT start -->
+                                    <div class="lineOT-projects"></div><!-- lineOT end -->
+                                    <!-- row start -->
+                                    <div class="row">
+                                        <!-- decoration projects start -->
+                                        <div class="decoration">
+                                            <div class="decoration-projects-left-1"></div>
+                                            <div class="decoration-projects-middle-1"></div>
+                                            <div class="decoration-projects-right-1"></div>
+                                        </div><!-- decoration projects end -->
+                                        <p class="projects-head">
+                                            Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit</a>. Curabitur bibendum ut purus non ultricies. Sed vel felis laoreet, blandit metus
+                                            non, gravida sem. In pharetra ultrices nisl, at posuere erat malesuada in.
+                                        </p>
+                                        <!-- decoration projects start -->
+                                        <div class="decoration">
+                                            <div class="decoration-projects-left-2"></div>
+                                            <div class="decoration-projects-middle-2"></div>
+                                            <div class="decoration-projects-right-2"></div>
+                                        </div><!-- decoration projects end -->
+                                        <!-- owlCarousel 2 start -->
+                                        <div class="owl-carousel">
+                                            <div>
+                                                <span class="awesome-2"><span class="fa fa-mars"></span></span>
+                                                <div class="info-2">
+                                                    Customer First
+                                                </div>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit</a>. Curabitur bibendum ut purus non ultricies. Sed vel felis laoreet, blandit
+                                                    metus non, gravida sem. In pharetra ultrices nisl, at posuere erat malesuada in.
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <span class="awesome-2"><span class="fa fa-globe"></span></span>
+                                                <div class="info-2">
+                                                    Remote Support
+                                                </div>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit</a>. Curabitur bibendum ut purus non ultricies. Sed vel felis laoreet, blandit
+                                                    metus non, gravida sem. In pharetra ultrices nisl, at posuere erat malesuada in.
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <span class="awesome-2"><span class="fa fa-venus"></span></span>
+                                                <div class="info-2">
+                                                    Quality First
+                                                </div>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit</a>. Curabitur bibendum ut purus non ultricies. Sed vel felis laoreet, blandit
+                                                    metus non, gravida sem. In pharetra ultrices nisl, at posuere erat malesuada in.
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <span class="awesome-2"><span class="fa fa-cogs"></span></span>
+                                                <div class="info-2">
+                                                    Core Pinciples
+                                                </div>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit</a>. Curabitur bibendum ut purus non ultricies. Sed vel felis laoreet, blandit
+                                                    metus non, gravida sem. In pharetra ultrices nisl, at posuere erat malesuada in.
+                                                </p>
+                                            </div>
+                                        </div><!-- owlCarousel 2 end -->
+                                        <!-- decoration projects start -->
+                                        <div class="decoration">
+                                            <div class="decoration-projects-left-3"></div>
+                                            <div class="decoration-projects-middle-3"></div>
+                                            <div class="decoration-projects-right-3"></div>
+                                        </div><!-- decoration projects end -->
+                                    </div><!-- row end -->
+                                    <!-- lineOT start -->
+                                    <div class="lineOT-projects-2"></div><!-- lineOT end -->
+                                </div><!-- container end -->
+                            </div>
+                        </li><!-- project 2 end -->
+                        <!-- project 3 start -->
+                        <li class="cd-single-project">
+                            <div class="cd-title">
+                                <h2>
+                                    Project 3
+                                </h2>
+                                <p>
+                                    Lorem ipsum <a href="#">dolor</a> sit amet.
+                                </p>
+                            </div>
+                            <div class="cd-project-info">
+                                <!-- container start -->
+                                <div class="container">
+                                    <h4>
+                                        Project 3
+                                    </h4>
+                                    <!-- lineOT start -->
+                                    <div class="lineOT-projects"></div><!-- lineOT end -->
+                                    <!-- row start -->
+                                    <div class="row">
+                                        <!-- decoration projects start -->
+                                        <div class="decoration">
+                                            <div class="decoration-projects-left-1"></div>
+                                            <div class="decoration-projects-middle-1"></div>
+                                            <div class="decoration-projects-right-1"></div>
+                                        </div><!-- decoration projects end -->
+                                        <p class="projects-head">
+                                            Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit</a>. Curabitur bibendum ut purus non ultricies. Sed vel felis laoreet, blandit metus
+                                            non, gravida sem. In pharetra ultrices nisl, at posuere erat malesuada in.
+                                        </p>
+                                        <!-- decoration projects start -->
+                                        <div class="decoration">
+                                            <div class="decoration-projects-left-2"></div>
+                                            <div class="decoration-projects-middle-2"></div>
+                                            <div class="decoration-projects-right-2"></div>
+                                        </div><!-- decoration projects end -->
+                                        <!-- owlCarousel 3 start -->
+                                        <div class="owl-carousel">
+                                            <div>
+                                                <span class="awesome-2"><span class="fa fa-mars"></span></span>
+                                                <div class="info-2">
+                                                    Customer First
+                                                </div>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit</a>. Curabitur bibendum ut purus non ultricies. Sed vel felis laoreet, blandit
+                                                    metus non, gravida sem. In pharetra ultrices nisl, at posuere erat malesuada in.
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <span class="awesome-2"><span class="fa fa-globe"></span></span>
+                                                <div class="info-2">
+                                                    Remote Support
+                                                </div>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit</a>. Curabitur bibendum ut purus non ultricies. Sed vel felis laoreet, blandit
+                                                    metus non, gravida sem. In pharetra ultrices nisl, at posuere erat malesuada in.
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <span class="awesome-2"><span class="fa fa-venus"></span></span>
+                                                <div class="info-2">
+                                                    Quality First
+                                                </div>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit</a>. Curabitur bibendum ut purus non ultricies. Sed vel felis laoreet, blandit
+                                                    metus non, gravida sem. In pharetra ultrices nisl, at posuere erat malesuada in.
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <span class="awesome-2"><span class="fa fa-cogs"></span></span>
+                                                <div class="info-2">
+                                                    Core Pinciples
+                                                </div>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit</a>. Curabitur bibendum ut purus non ultricies. Sed vel felis laoreet, blandit
+                                                    metus non, gravida sem. In pharetra ultrices nisl, at posuere erat malesuada in.
+                                                </p>
+                                            </div>
+                                        </div><!-- owlCarousel 3 end -->
+                                        <!-- decoration projects start -->
+                                        <div class="decoration">
+                                            <div class="decoration-projects-left-3"></div>
+                                            <div class="decoration-projects-middle-3"></div>
+                                            <div class="decoration-projects-right-3"></div>
+                                        </div><!-- decoration projects end -->
+                                    </div><!-- row end -->
+                                    <!-- lineOT start -->
+                                    <div class="lineOT-projects-2"></div><!-- lineOT end -->
+                                </div><!-- container end -->
+                            </div>
+                        </li><!-- project 3 end -->
+                        <!-- project 4 start -->
+                        <li class="cd-single-project">
+                            <div class="cd-title">
+                                <h2>
+                                    Project 4
+                                </h2>
+                                <p>
+                                    Lorem ipsum <a href="#">dolor</a> sit amet.
+                                </p>
+                            </div>
+                            <div class="cd-project-info">
+                                <!-- container start -->
+                                <div class="container">
+                                    <h4>
+                                        Project 4
+                                    </h4>
+                                    <!-- lineOT start -->
+                                    <div class="lineOT-projects"></div><!-- lineOT end -->
+                                    <!-- row start -->
+                                    <div class="row">
+                                        <!-- decoration projects start -->
+                                        <div class="decoration">
+                                            <div class="decoration-projects-left-1"></div>
+                                            <div class="decoration-projects-middle-1"></div>
+                                            <div class="decoration-projects-right-1"></div>
+                                        </div><!-- decoration projects end -->
+                                        <p class="projects-head">
+                                            Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit</a>. Curabitur bibendum ut purus non ultricies. Sed vel felis laoreet, blandit metus
+                                            non, gravida sem. In pharetra ultrices nisl, at posuere erat malesuada in.
+                                        </p>
+                                        <!-- decoration projects start -->
+                                        <div class="decoration">
+                                            <div class="decoration-projects-left-2"></div>
+                                            <div class="decoration-projects-middle-2"></div>
+                                            <div class="decoration-projects-right-2"></div>
+                                        </div><!-- decoration projects end -->
+                                        <!-- owlCarousel 4 start -->
+                                        <div class="owl-carousel">
+                                            <div>
+                                                <span class="awesome-2"><span class="fa fa-mars"></span></span>
+                                                <div class="info-2">
+                                                    Customer First
+                                                </div>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit</a>. Curabitur bibendum ut purus non ultricies. Sed vel felis laoreet, blandit
+                                                    metus non, gravida sem. In pharetra ultrices nisl, at posuere erat malesuada in.
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <span class="awesome-2"><span class="fa fa-globe"></span></span>
+                                                <div class="info-2">
+                                                    Remote Support
+                                                </div>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit</a>. Curabitur bibendum ut purus non ultricies. Sed vel felis laoreet, blandit
+                                                    metus non, gravida sem. In pharetra ultrices nisl, at posuere erat malesuada in.
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <span class="awesome-2"><span class="fa fa-venus"></span></span>
+                                                <div class="info-2">
+                                                    Quality First
+                                                </div>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit</a>. Curabitur bibendum ut purus non ultricies. Sed vel felis laoreet, blandit
+                                                    metus non, gravida sem. In pharetra ultrices nisl, at posuere erat malesuada in.
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <span class="awesome-2"><span class="fa fa-cogs"></span></span>
+                                                <div class="info-2">
+                                                    Core Pinciples
+                                                </div>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit</a>. Curabitur bibendum ut purus non ultricies. Sed vel felis laoreet, blandit
+                                                    metus non, gravida sem. In pharetra ultrices nisl, at posuere erat malesuada in.
+                                                </p>
+                                            </div>
+                                        </div><!-- owlCarousel 4 end -->
+                                        <!-- decoration projects start -->
+                                        <div class="decoration">
+                                            <div class="decoration-projects-left-3"></div>
+                                            <div class="decoration-projects-middle-3"></div>
+                                            <div class="decoration-projects-right-3"></div>
+                                        </div><!-- decoration projects end -->
+                                    </div><!-- row end -->
+                                    <!-- lineOT start -->
+                                    <div class="lineOT-projects-2"></div><!-- lineOT end -->
+                                </div><!-- container end -->
+                            </div>
+                        </li><!-- project 4 end -->
+                    </ul>
+                    <!-- project navigation start -->
+                    <a class="cd-close" href="#"><span class="fa fa-angle-up"></span></a>
+                    <a class="cd-scroll" href="#"><span class="fa fa-angle-down"></span></a><!-- project navigation end -->
+                </div><!-- projects end -->
+            </article><!-- article end -->
+        </section><!-- section projects end -->
+        <!-- section contact start -->
+        <section data-direction="from-bottom" id="contact">
+            <!-- article start -->
+            <article class="containerOT">
+                <!-- center container start -->
+                <div class="center-container">
+                    <!-- closer start -->
+                    <a class="close" href="#"></a><!-- closer end -->
+                     <!-- center block start -->
+                    <div class="center-block">
+                        <!-- container start -->
+                        <div class="container">
+                            <h3>
+                                Contact
+                            </h3>
+                            <!-- teaser 4 start -->
+                            <div id="teaser-4">
+                                <div id="teaser-text-4">
+                                    <!-- teaser line 1 start -->
+                                    <div class="teaser-text-animation-4 active first">
+                                        <h2>
+                                            <span class="teaser-normal-4">Deep</span> <span class="teaser-highlight-4">Learning</span>
+                                        </h2>
+                                    </div><!-- teaser line 1 end -->
+                                    <!-- teaser line 2 start -->
+                                    <div class="teaser-text-animation-4">
+                                        <h2>
+                                            <span class="teaser-normal-4">DRAW</span> <span class="teaser-highlight-4">Network</span>
+                                        </h2>
+                                    </div><!-- teaser line 2 end -->
+                                    <!-- teaser line 3 start -->
+                                    <div class="teaser-text-animation-4">
+                                        <h2>
+                                            <span class="teaser-normal-4">REST</span> <span class="teaser-highlight-4">API</span>
+                                        </h2>
+                                    </div><!-- teaser line 3 end -->
+                                    <!-- teaser line 4 start -->
+                                    <div class="teaser-text-animation-4">
+                                        <h2>
+                                            <span class="teaser-normal-4">Diva</span> <span class="teaser-highlight-4">Poderosa</span>
+                                        </h2>
+                                    </div><!-- teaser line 4 end -->
+                                </div>
+                            </div><!-- teaser 4 end -->
+                            <!-- lineOT start -->
+                            <div class="lineOT-contact"></div><!-- lineOT end -->
+                            <!-- row start -->
+                            <div class="row">
+                                <!-- decoration contact start -->
+                                <div class="decoration">
+                                    <div class="decoration-contact-left-1"></div>
+                                    <div class="decoration-contact-middle-1"></div>
+                                    <div class="decoration-contact-right-1"></div>
+                                </div><!-- decoration contact end -->
+                                <div class="col-md-4">
+                                    <span class="awesome"><span class="fa fa-map-marker"></span></span>
+                                    <p class="info">
+                                        Address
+                                    </p>
+                                    <p>
+                                        ex nihilo, Inc.<br>
+                                        Touchdown Dr<br>
+                                        1176
+                                    </p>
+                                </div>
+                                <div class="col-md-4">
+                                    <span class="awesome"><span class="fa fa-mobile"></span></span>
+                                    <p class="info">
+                                        Telephone
+                                    </p>
+                                    <p>
+                                        [00] 11 - 76<br>
+                                        [01] 11 - 76
+                                    </p>
+                                </div>
+                                <div class="col-md-4">
+                                    <span class="awesome"><span class="fa fa-envelope-o"></span></span>
+                                    <p class="info">
+                                        E-mail
+                                    </p>
+                                    <p>
+                                        <a href="mailto:you@yoursite.com">you@yoursite.com</a>
+                                    </p>
+                                </div>
+                            </div><!-- row end -->
+                            <!-- divider start -->
+                            <div class="divider"></div><!-- divider end -->
+                            <!-- row start -->
+                            <div class="row">
+                                <!-- decoration contact start -->
+                                <div class="decoration">
+                                    <div class="decoration-contact-left-2"></div>
+                                    <div class="decoration-contact-middle-2"></div>
+                                    <div class="decoration-contact-right-2"></div>
+                                </div><!-- decoration contact end -->
+                                <!-- twitter ticker start -->
+                                <div id="twitter-wrap">
+                                    <!-- twitter logo start -->
+                                    <div id="twitter-logo">
+                                        <a class="twitter-logo" href="https://twitter.com/enihilo" target="_blank"><span class="fa fa-twitter"></span></a>
+                                    </div><!-- twitter logo end -->
+                                    <!-- tweets start -->
+                                    <div id="tweets">
+                                        <div class="query" id="ticker"></div>
+                                    </div><!-- tweets end -->
+                                </div><!-- twitter ticker end -->
+                                <!-- decoration contact start -->
+                                <div class="decoration">
+                                    <div class="decoration-contact-left-3"></div>
+                                    <div class="decoration-contact-middle-3"></div>
+                                    <div class="decoration-contact-right-3"></div>
+                                </div><!-- decoration contact end -->
+                            </div><!-- row end -->
+                            <!-- divider start -->
+                            <div class="divider-2"></div><!-- divider end -->
+                            <!-- row start -->
+                            <div class="row">
+                                <h5>
+                                    Get in touch
+                                </h5>
+                                <!-- contact form start -->
+                                <div id="contact-form">
+                                    <form action="contact.php" id="form" method="post" name="send">
+                                        <div class="holder">
+                                            <div>
+                                                <input class="requiredField name" id="name" name="name" placeholder="Name" type="text">
+                                            </div>
+                                            <div>
+                                                <input class="requiredField email" id="email" name="email" placeholder="Email" type="text">
+                                            </div>
+                                            <div>
+                                                <input class="requiredField subject" id="subject" name="subject" placeholder="Subject" type="text">
+                                            </div>
+                                        </div>
+                                        <div class="holder">
+                                            <div>
+                                                <textarea class="requiredField message" id="message" name="message" placeholder="Message">
+</textarea>
+                                            </div>
+                                            <div>
+                                                <button class="submit" data-hover="Submit" type="submit" value="Submit">Submit</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div><!-- contact form end -->
+                            </div><!-- row end -->
+                            <!-- divider start -->
+                            <div class="divider"></div><!-- divider end -->
+                            <!-- row start -->
+                            <div class="row">
+                                <!-- decoration contact start -->
+                                <div class="decoration">
+                                    <div class="decoration-contact-left-4"></div>
+                                    <div class="decoration-contact-middle-4"></div>
+                                    <div class="decoration-contact-right-4"></div>
+                                </div><!-- decoration contact end -->
+                                <!-- social icons start -->
+                                <div class="social-icons-wrapper">
+                                    <ul class="social-icons">
+                                        <li>
+                                            <a class="fa fa-twitter-square fa-2x" href="#"></a>
+                                        </li>
+                                        <li>
+                                            <a class="fa fa-facebook-square fa-2x" href="#"></a>
+                                        </li>
+                                        <li>
+                                            <a class="fa fa-google-plus-square fa-2x" href="#"></a>
+                                        </li>
+                                        <li>
+                                            <a class="fa fa-youtube-square fa-2x" href="#"></a>
+                                        </li>
+                                        <li>
+                                            <a class="fa fa-linkedin-square fa-2x" href="#"></a>
+                                        </li>
+                                        <li>
+                                            <a class="fa fa-instagram fa-2x" href="#"></a>
+                                        </li>
+                                    </ul>
+                                </div><!-- social icons end -->
+                            </div><!-- row end -->
+                            <!-- lineOT start -->
+                            <div class="lineOT-contact-2"></div><!-- lineOT end -->
+                        </div><!-- container end -->
+                    </div><!-- center block end -->
+                </div><!-- center container end -->
+            </article><!-- article end -->
+        </section><!-- section contact end -->
+        <!-- scripts start -->
+        <script src="js/plugins.js" type="text/javascript"></script>
+		<script src="js/the-sea.js" type="text/javascript"></script>
+		<script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/supersized.3.2.7.bg-single-image.js" type="text/javascript"></script>
+        <script src="js/particles-dark.js" type="text/javascript"></script>
+        <!-- scripts end -->
+    </body>
+</html>
